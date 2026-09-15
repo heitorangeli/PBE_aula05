@@ -72,4 +72,13 @@ npm run dev
 | **DELETE** | `/inventario/:id` | Remove o item referente ao id |
 
 ## Exemplos de requisição e testes com o Thunder Client
+- Listar todos os itens:
+![GET](Prints/get_all.png)
+- Buscar um item específico:
+![GET](Prints/get_one.png)
 
+- Cadastrar um novo item:
+![GET](Prints/post.png)
+![GET](Prints/delete.png)
+![GET](Prints/post.png)
+![GET](Prints/put_test.png)
