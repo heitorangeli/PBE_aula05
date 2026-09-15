@@ -1,5 +1,5 @@
 # Programa utilizando JavaScript de organização de itens de um inventário
-- Arquivo JSON: 
+- inventario.json
 ```JSON
 [
   {
@@ -44,6 +44,16 @@
   }
 ```
 
+## Método para testar o projeto:
+- 1 Clone o repositório
+- 2 Abra com VsCode
+- 3 Em um teminal CMD ou BASH, digite:
+```
+npm install
+npm run dev
+```
+- 4 Teste as rotas com a extensão Thunder Client do VsCode
+
 ## Tecnologias:
 - VsCode
 - Node.js
@@ -61,5 +71,5 @@
 | **PUT** | `/inventario/:id` | Atualiza as informações do item pelo id. |
 | **DELETE** | `/inventario/:id` | Remove o item referente ao id |
 
----
+## Exemplos de requisição e testes com o Thunder Client
 
