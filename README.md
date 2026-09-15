@@ -51,5 +51,15 @@
 - JSON
 - Thunder Client
 
-## Testes com o Thunder Client
+## Rotas
+
+| Método | Rota | Descrição |
+| :--- | :--- | :--- |
+| **GET** | `/` | Retorna a lista completa. |
+| **GET** | `/inventario/:id` | Retorna um item específico pelo id. |
+| **POST** | `/inventario/:id` | Cadastra um novo item informando o id. |
+| **PUT** | `/inventario/:id` | Atualiza as informações do item pelo id. |
+| **DELETE** | `/inventario/:id` | Remove o item referente ao id |
+
+---
 
