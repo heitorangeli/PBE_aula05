@@ -1,4 +1,4 @@
-# Programa utilizando JavaScript de organização de itens de um inventário
+# Programa utilizando JavaScript, contendo a organização de itens de um inventário
 - inventario.json
 ```JSON
 [
