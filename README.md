@@ -67,18 +67,21 @@ npm run dev
 | :--- | :--- | :--- |
 | **GET** | `/` | Retorna a lista completa. |
 | **GET** | `/inventario/:id` | Retorna um item específico pelo id. |
+| **DELETE** | `/inventario/:id` | Remove o item referente ao id |
 | **POST** | `/inventario/:id` | Cadastra um novo item informando o id. |
 | **PUT** | `/inventario/:id` | Atualiza as informações do item pelo id. |
-| **DELETE** | `/inventario/:id` | Remove o item referente ao id |
 
 ## Exemplos de requisição e testes com o Thunder Client
 - Listar todos os itens:
 ![GET](Prints/get_all.png)
 - Buscar um item específico:
 ![GET](Prints/get_one.png)
-
-- Cadastrar um novo item:
+- Cadastrar um novo item usando Post e teste:
 ![GET](Prints/post.png)
+![GET](Prints/get_ac.png)
+- Delete e teste:
 ![GET](Prints/delete.png)
-![GET](Prints/post.png)
+![GET](Prints/get_ac.png)
+- Put e teste (note que o valor foi alterado):
+![GET](Prints/put.png)
 ![GET](Prints/put_test.png)
